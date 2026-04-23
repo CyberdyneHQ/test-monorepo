@@ -1,0 +1,14 @@
+{
+  "name": "test-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/web",
+    "apps/mobile",
+    "apps/dashboard",
+    "packages/shared-utils"
+  ],
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "@monorepo/dual-lock-experiment",
+  "version": "1.0.0",
+  "description": "Has BOTH npm and yarn lockfiles - competing package managers",
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
+}

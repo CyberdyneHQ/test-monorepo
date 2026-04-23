@@ -1,0 +1,9 @@
+[project]
+name = "auth-service"
+version = "0.1.0"
+description = "Mixed ecosystem - has both Python and JS dependencies"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.28.0",
+    "pyjwt>=2.8.0",
+]

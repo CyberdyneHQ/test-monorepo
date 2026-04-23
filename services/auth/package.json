@@ -1,0 +1,8 @@
+{
+  "name": "@monorepo/auth-frontend",
+  "version": "1.0.0",
+  "description": "Auth service also has JS frontend assets",
+  "dependencies": {
+    "react": "17.0.2"
+  }
+}

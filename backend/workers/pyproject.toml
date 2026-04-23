@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "backend-workers"
+version = "0.1.0"
+description = "Worker processes - uses poetry (own lockfile, NOT eligible for root lockfile pairing)"
+authors = ["Test <test@test.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+celery = "^5.3.0"
+redis = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

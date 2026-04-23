@@ -1,0 +1,9 @@
+{
+  "name": "@monorepo/portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deeply nested subrepo path - tests deep path prefix matching",
+  "dependencies": {
+    "axios": "0.21.1"
+  }
+}
