@@ -1,0 +1,9 @@
+{
+  "name": "m3-b",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Declares vulnerable lodash. Baseline: should report 9 CVEs.",
+  "dependencies": {
+    "lodash": "4.17.10"
+  }
+}

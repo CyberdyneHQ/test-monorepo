@@ -1,0 +1,10 @@
+{
+  "name": "leak-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scenario A — sibling pollution. Shared lockfile, vuln in one sibling only.",
+  "workspaces": [
+    "packages/safe-app",
+    "packages/vuln-app"
+  ]
+}

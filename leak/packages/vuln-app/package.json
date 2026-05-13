@@ -1,0 +1,9 @@
+{
+  "name": "leak-vuln-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Declares vulnerable lodash. Should report 9 lodash CVEs (baseline, both before and after fix).",
+  "dependencies": {
+    "lodash": "4.17.10"
+  }
+}

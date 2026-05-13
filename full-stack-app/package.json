@@ -1,0 +1,14 @@
+{
+  "name": "full-stack-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mid-level orchestrator: workspace member of root AND has its own workspace sub-repos with own lockfiles",
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "dependencies": {
+    "chalk": "4.1.2",
+    "lodash": "4.17.10"
+  }
+}
