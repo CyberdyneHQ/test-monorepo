@@ -1,0 +1,10 @@
+{
+  "name": "m3-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scenario B — cross-workspace transitive. m3-a depends on sibling m3-b which carries lodash. Known limitation: fix may drop legit transitive vuln.",
+  "workspaces": [
+    "packages/a",
+    "packages/b"
+  ]
+}

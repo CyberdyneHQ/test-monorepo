@@ -1,0 +1,9 @@
+{
+  "name": "m3-a",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Depends on workspace sibling m3-b. Should report m3-b's lodash as legitimate transitive — but fix may drop it (known npm limitation).",
+  "dependencies": {
+    "m3-b": "*"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "full-stack-app-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sub-repo of full-stack-app with its OWN lockfile",
+  "dependencies": {
+    "minimist": "1.2.0",
+    "react": "17.0.2"
+  }
+}

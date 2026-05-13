@@ -1,0 +1,9 @@
+{
+  "name": "leak-safe-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Declares only safe deps. Should report 0 vulns after fix. Without fix: leaks vuln-app's lodash.",
+  "dependencies": {
+    "dayjs": "1.11.10"
+  }
+}

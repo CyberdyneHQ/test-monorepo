@@ -6,7 +6,8 @@
     "apps/web",
     "apps/mobile",
     "apps/dashboard",
-    "packages/shared-utils"
+    "packages/shared-utils",
+    "full-stack-app"
   ],
   "dependencies": {
     "lodash": "4.17.20"
