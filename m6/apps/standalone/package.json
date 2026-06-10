@@ -1,0 +1,9 @@
+{
+  "name": "m6-standalone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Declares only safe deps. Should report 0 vulns — control that '**' member discovery does not weaken leak blocking.",
+  "dependencies": {
+    "dayjs": "1.11.10"
+  }
+}
