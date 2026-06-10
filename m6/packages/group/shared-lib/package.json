@@ -1,0 +1,9 @@
+{
+  "name": "m6-shared-lib",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nested two levels deep under packages/ — only discoverable via the '**' glob. Declares vulnerable lodash. Baseline: 9 CVEs.",
+  "dependencies": {
+    "lodash": "4.17.10"
+  }
+}

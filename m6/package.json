@@ -1,0 +1,10 @@
+{
+  "name": "m6-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scenario C — doublestar workspace glob. Members declared via 'packages/**' nest arbitrarily deep; m6-consumer reaches vulnerable lodash through nested sibling m6-shared-lib.",
+  "workspaces": [
+    "apps/*",
+    "packages/**"
+  ]
+}

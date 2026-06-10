@@ -2,7 +2,7 @@
   "name": "m3-a",
   "version": "1.0.0",
   "private": true,
-  "description": "Depends on workspace sibling m3-b. Should report m3-b's lodash as legitimate transitive — but fix may drop it (known npm limitation).",
+  "description": "Depends on workspace sibling m3-b. Should report m3-b's 9 lodash CVEs as legitimate transitives (cross-workspace seed expansion, ENG-4636).",
   "dependencies": {
     "m3-b": "*"
   }
